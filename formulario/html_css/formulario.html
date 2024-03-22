@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="title">Formulario para ingresar compras</h3>
+    <p class="description">Por favor ingrese los datos solicitados, especificados en el ticket de su compra.</p>
+    <section class="formsec">
+        <div><form action="post" class="form">
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" name="cantidad" id="cantidad" required>
+            <br>
+            <label for="Marca">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <br>
+            <label for="producto">Producto:</label>
+            <input type="text" name="producto" id="producto" required>
+            <br>
+            <label for="precio">Precio:</label>
+            <input type="number" name="precio" id="precio" required>
+            <br>
+            <input type="submit" value="Enviar" id="enviar">
+        </form></div>
+    </section>
+    <div class="linklistado">
+        <a href="../../listado/html_css/listado.html">Ir al listado.</a>
+    </div>
+</body>
+</html>
