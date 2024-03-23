@@ -1,0 +1,99 @@
+/* listado.html is done with bootstrap */
+
+body{
+    background-color: #dafacb;
+}
+
+#title {
+    text-align: center;
+    background-color: #64af51;
+    color: #ffffff;
+    padding: 15px;
+}
+
+#htitle {
+    font-size: 1.5vw;
+    line-height: 35px;
+}
+
+#tcontainer {
+    line-height: 35px;
+}
+
+#linkindexcol {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #64af51;
+    padding: 15px;
+}
+
+#linkindex {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+#linkformcol {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #64af51;
+    padding: 15px;
+}
+
+#linkform {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+#description {
+    color: #4c9729;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#table {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#table th {
+    background-color: #64af51;
+    color: #ffffff;
+    padding: 5px;
+}
+
+#table td {
+    background-color: #dafacb;
+    padding: 5px;
+}
+
+#table tr:nth-child(even) {
+    background-color: #64af51;
+}
+
+#table tr:nth-child(odd) {
+    background-color: #dafacb;
+}
+
+
+
+@media (max-width: 1100px) {
+    #htitle {
+        font-size: 2.8vw;
+    }
+
+    #description {
+        font-size: 2.8vw;
+    }
+
+    #linkindex {
+        font-size: 2.8vw;
+    }
+
+    #linkform {
+        font-size: 2.8vw;
+    }
+}
+
