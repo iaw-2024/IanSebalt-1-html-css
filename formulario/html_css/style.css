@@ -34,6 +34,8 @@ body{
     border-radius: 10px;
     margin-top: 20px;
     font-family: sans-serif;
+    background-color: #64af51;
+    color: #ffffff;
 }
 
 .form input {
@@ -48,7 +50,7 @@ body{
 .description {
     font-size: 20px;
     font-weight: bold;
-    color: #4c9729;
+    color: #ffffff;
     text-align: center;
     margin-top: 20px;
     font-family: sans-serif;
