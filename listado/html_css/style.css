@@ -61,6 +61,10 @@ body {
     width: 25%;
 }
 
+.listcontainer{
+    overflow-x: auto;
+}
+
 .listacompras {
     width: 100%;
     max-width: 1000px;
@@ -69,7 +73,6 @@ body {
     border-radius: 10px;
     margin-top: 0px;
     font-family: sans-serif;
-    overflow-x: auto;
 }   
 
 .listacompras table {
